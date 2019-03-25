@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Students waiting list</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_title_home">Notes</string>
+    <string name="msg_no_students">No students found!</string>
+    <string name="lbl_new_student_title">New Student</string>
+    <string name="lbl_edit_student_title">Edit Student</string>
+    <string name="hint_enter_student">Student name</string>
+    <string name="hint_course">Course</string>
+    <string name="student_priority">Student priority</string>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_margin"
+    android:paddingTop="@dimen/activity_margin"
+    android:paddingRight="@dimen/activity_margin">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_10"
+        android:fontFamily="sans-serif-medium"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/lbl_new_student_title"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/lbl_new_student_title"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/student"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:hint="@string/hint_enter_student"
+        android:lines="1"
+        android:textColorHint="@color/hint_enter_note"
+        android:textSize="@dimen/input_new_student" />
+
+    <EditText
+        android:id="@+id/course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_16dp"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:hint="@string/hint_course"
+        android:lines="1"
+        android:textColorHint="@color/hint_enter_note"
+        android:textSize="@dimen/input_new_student" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_16dp"
+        android:fontFamily="sans-serif-medium"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/student_priority"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/lbl_new_student_title"
+        android:textStyle="normal" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/firstYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1st year" />
+
+        <RadioButton
+            android:id="@+id/secondYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2nd year" />
+
+
+        <RadioButton
+            android:id="@+id/thirdYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3rd year" />
+
+        <RadioButton
+            android:id="@+id/fourthYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4th year" />
+
+
+        <RadioButton
+            android:id="@+id/graduated"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Graduated" />
+
+
+    </RadioGroup>
+
+</LinearLayout>

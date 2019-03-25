@@ -1,0 +1,15 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="dot_margin_right">10dp</dimen>
+    <dimen name="msg_no_notes">26sp</dimen>
+    <dimen name="margin_top_no_notes">120dp</dimen>
+    <dimen name="lbl_new_student_title">20sp</dimen>
+    <dimen name="dimen_10">10dp</dimen>
+    <dimen name="input_new_student">20sp</dimen>
+    <dimen name="dot_height">30dp</dimen>
+    <dimen name="dot_text_size">40sp</dimen>
+    <dimen name="timestamp">14sp</dimen>
+    <dimen name="student_list_text">18sp</dimen>
+    <dimen name="dimen_16dp">16dp</dimen>
+</resources>
